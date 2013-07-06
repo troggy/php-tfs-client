@@ -1,0 +1,28 @@
+{
+    "name": "troggy/php-tfs-client",
+    "type": "library",
+    "description": "PHP API for Team Foundation Server. Essentially just a PHP wrapper for TFS command line client (Team Explorer Everywhere)",
+    "keywords": ["tfs", "tee"],
+    "homepage": "https://github.com/troggy/php-tfs-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kosta Korenkov",
+            "email": "7r0ggy@gmail.com",
+            "homepage": "https://github.com/troggy"
+        }
+
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "apache/log4php": "2.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "troggy\\PhpTFSClient": "lib/"
+        }
+    }
+}
